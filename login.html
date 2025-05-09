@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <div id="info_login">
+        <label for="">Insira seu email e senha para voltar ao seu perfil incrivel</label>
+    </div>
+
+
+
+    <div id="box_login">
+        <label for="">Email</label>
+        <input type="text" id="ipt_email">
+        <label for="">Senha</label>
+        <input type="password" id="ipt_senha">
+        <button onclick="logar()">Logar!</button>
+
+    </div>
+
+<script>
+    function logar(){
+        var email=ipt_email.value
+        var senha=ipt_senha.value
+if (email!=`Morganlima@gmail.com`&& senha!=123456){
+    alert(`Senha ou usuário incorretos, tente novamente`)
+}
+
+
+
+
+
+
+    }
+</script>
+
+</body>
+
+</html>
