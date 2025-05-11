@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Griffy&display=swap');
+/* ESTILOS GERAIS  */
+body {
+    margin: 0;
+    padding: 0;
+    background: 
+        url('/img/206157dff5679ad983775b332a08bfb2.jpg') center/cover fixed,
+        #222;
+    color: white;
+    font-family: 'Griffy', cursive;
+    line-height: 1.6;
+}
+
+/*CABECALHO*/
+#cabecalho_paginaInicial {
+    background-color: #161515e8;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*  PRINCIPAL*/
+#TITULO_info_banda, #Titulo_albuns {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 1.8em;
+    color: white;
+}
+
+#texto_info_banda {
+    width: 80%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.info_banda {
+    flex: 1;
+    font-size: 1.2em;
+}
+
+.imagem1 {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/*  ÁLBUNS  */
+#Titulo_albuns {
+    border-top: 2px solid #8e44ad;
+    padding-top: 40px;
+}
+
+#Texto_albuns {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#Texto_albuns h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+#Texto_albuns h3 {
+    color: #8e44ad;
+    margin-top: 30px;
+    border-bottom: 1px solid #8e44ad;
+    padding-bottom: 5px;
+}
+
+/* BOX DE LOGIN  */
+.box_login {
+    width: 300px;
+    height: 200px;
+    background-color: #222;
+    color: white;
+    border: 2px solid #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/*RESPONSIVIDADE  */
+@media (max-width: 768px) {
+    #texto_info_banda {
+        flex-direction: column;
+    }
+    
+    .imagem1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    #TITULO_info_banda, #Titulo_albuns, 
+    #texto_info_banda, #Texto_albuns {
+        width: 90%;
+    }
+}
+
+
+
+/* fonte só nos textos */
+p, .info_banda, .Texto_albuns, li, .box_login p {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.1em;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+}
+
+/* griffy em todos os títulos  */
+h1, h2, h3, h4, h5, h6,
+#cabecalho_paginaInicial,
+#TITULO_info_banda,
+#Titulo_albuns,
+.box_login,
+.titulo-destaque {
+    font-family: 'Griffy', cursive !important;
+}
+
+/* melhorar a letra dos textos  */
+.info_banda, .Texto_albuns {
+    font-size: 1.15em;
+    text-align: justify;
+    hyphens: auto;
+}
+.imagem2,.imagem3,.imagem4,.imagem5,.imagem6,.imagem7,.imagem8,.imagem9 {
+        width: 60%;
+        margin-top: 20px;
+    }
