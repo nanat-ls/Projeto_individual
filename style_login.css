@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Griffy&display=swap');
+body {
+    background-image: url('/img/pqp.jpg');
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed;  
+    font-family: 'Griffy', cursive;
+    line-height: 1.6;
+}
+#info_login{
+ background-color: #161515e8;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#box_login{
+    font-family: 'Griffy', cursive;
+background-color: rgba(0, 0, 0, 0.466); 
+    padding: 20px;
+    border-radius: 15px;
+    color:  rgb(255, 255, 255);
+    max-width: 500px;
+    margin: 200px auto;
+    font-size: xx-large;
+    
+
+
+
+}

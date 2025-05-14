@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Griffy&display=swap');
+
 /* ESTILOS GERAIS  */
 body {
     margin: 0;
@@ -97,19 +98,17 @@ body {
     #texto_info_banda {
         flex-direction: column;
     }
-    
+
     .imagem1 {
         width: 100%;
         margin-top: 20px;
     }
-    
+
     #TITULO_info_banda, #Titulo_albuns, 
     #texto_info_banda, #Texto_albuns {
         width: 90%;
     }
 }
-
-
 
 /* fonte só nos textos */
 p, .info_banda, .Texto_albuns, li, .box_login p {
@@ -125,7 +124,8 @@ h1, h2, h3, h4, h5, h6,
 #TITULO_info_banda,
 #Titulo_albuns,
 .box_login,
-.titulo-destaque {
+.titulo-destaque,
+#frase_final {
     font-family: 'Griffy', cursive !important;
 }
 
@@ -135,7 +135,28 @@ h1, h2, h3, h4, h5, h6,
     text-align: justify;
     hyphens: auto;
 }
-.imagem2,.imagem3,.imagem4,.imagem5,.imagem6,.imagem7,.imagem8,.imagem9 {
-        width: 60%;
-        margin-top: 20px;
-    }
+
+.imagem2, .imagem3, .imagem4, .imagem5, .imagem6, .imagem7, .imagem8, .imagem9 {
+    width: 60%;
+    margin-top: 20px;
+}
+
+/* Frase final com caixa */
+#frase_final {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 30px;
+    margin: 60px auto;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(142, 68, 173, 0.6);
+    text-align: center;
+    border: 2px solid #8e44ad;
+}
+
+#frase_final p {
+    font-family: 'Griffy', cursive !important;
+    font-size: 1.5em;
+    color: #8e44ad;
+    margin: 0;
+}
+
