@@ -14,7 +14,7 @@ body {
 }
 
 /*CABECALHO*/
-#cabecalho_paginaInicial {
+#cabecalho_paginaInicial{
     background-color: #161515e8;
     color: white;
     padding: 20px;
@@ -158,5 +158,26 @@ h1, h2, h3, h4, h5, h6,
     font-size: 1.5em;
     color: #8e44ad;
     margin: 0;
+}
+button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #8e44ad;
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+margin: 20px auto 0 auto;
+  transition: all 0.3s ease;
+ justify-content: center;
+}
+
+button:hover {
+  background-color: #8e44ad;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px #8e44ad;
+  transform: scale(2.00);
 }
 

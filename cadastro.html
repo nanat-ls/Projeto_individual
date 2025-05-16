@@ -3,14 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_cadastro.css">
     <title>Cadastro</title>
 </head>
 <body>
-    <div id="titulo_cadastro">
-<label for="cadastro">cadastro</label>
- </div>
+   <section id="home">
+    <div id="cabecalho_paginaInicial">
+        <label for="">Pagina inicial</label>
+        <label for="">cadastro</label>
+        
+        <label for="login">login</label>
+        </section>
+    </div>
+    </div>
 
- <div id="box_cadastro"></div>
+ <div id="box_cadastro">
+    <p>cadastre-se no nosso site para ter acesso a mais curiosidades da banda!</p>
+    <label for="email">Email:</label><br>
+    <input type="text" id="emali"><br>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome"><br>
+    <label for="senha">Senha:</label><br>
+    <input type="password" id="senha"><br>
+    <label for="senha">Confirmar senha:</label><br>
+    <input type="password" id="Confirmarsenha"><br>
+<button onclick="cadastrar()">Cadastrar</button>
+ </div>
 </body>
+<script>
+function cadastrar(){
+    var email=email.value
+    var nome=nome.value
+    var senha=senha.value
+    var confirmarsenha=confirmarsenha.value
+    if(senha!=confirmarsenha){
+        alert(`As senhas colocadas não são iguais`)
+    }else{
+        alert(`seja bem vindo!`)
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+</script>
 </html>

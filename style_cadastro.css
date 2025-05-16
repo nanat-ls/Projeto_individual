@@ -24,7 +24,7 @@ body {
   box-sizing: border-box; /* evita que padding quebre o layout */
 }
 
-#box_login{
+#box_cadastro{
     font-family: 'Griffy', cursive;
 background-color: rgba(0, 0, 0, 0.466); 
     padding: 20px;
